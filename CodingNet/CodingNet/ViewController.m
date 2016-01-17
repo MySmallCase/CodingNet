@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "UIDevice+Info.h"
+
 @interface ViewController ()
 
 @end
@@ -16,6 +18,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    NSLog(@"%@==",[UIDevice systemInfoDict][@"device"]);
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -1,4 +1,13 @@
 platform:ios, '7.0'
 inhibit_all_warnings!
 
+pod 'FontAwesome+iOS', '~> 0.1.4'
+pod 'POP+MCAnimate', '~> 2.0.1'
+pod 'Masonry', '~> 0.6.4'
+pod 'SDWebImage', '~> 3.7.4'
+pod 'TTTAttributedLabel', '~> 1.13.4'
+pod 'PPiAwesomeButton', '~> 1.5.2'
+
+
+
 

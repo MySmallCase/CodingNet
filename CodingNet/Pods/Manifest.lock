@@ -1,1 +1,51 @@
+PODS:
+  - FontAwesome+iOS (0.1.4)
+  - Masonry (0.6.4)
+  - pop (1.0.8)
+  - POP+MCAnimate (2.0.1):
+    - pop (~> 1.0)
+    - POP+MCAnimate/Animations (= 2.0.1)
+    - POP+MCAnimate/Group (= 2.0.1)
+    - POP+MCAnimate/Internal (= 2.0.1)
+    - POP+MCAnimate/Shorthand (= 2.0.1)
+    - POP+MCAnimate/Velocity (= 2.0.1)
+  - POP+MCAnimate/Animations (2.0.1):
+    - pop (~> 1.0)
+    - POP+MCAnimate/Group
+    - POP+MCAnimate/Internal
+    - POP+MCAnimate/Shorthand
+    - POP+MCAnimate/Velocity
+  - POP+MCAnimate/Group (2.0.1):
+    - pop (~> 1.0)
+  - POP+MCAnimate/Internal (2.0.1):
+    - pop (~> 1.0)
+  - POP+MCAnimate/Shorthand (2.0.1):
+    - pop (~> 1.0)
+  - POP+MCAnimate/Velocity (2.0.1):
+    - pop (~> 1.0)
+    - POP+MCAnimate/Internal
+  - PPiAwesomeButton (1.5.2):
+    - FontAwesome+iOS
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4)
+  - TTTAttributedLabel (1.13.4)
+
+DEPENDENCIES:
+  - FontAwesome+iOS (~> 0.1.4)
+  - Masonry (~> 0.6.4)
+  - POP+MCAnimate (~> 2.0.1)
+  - PPiAwesomeButton (~> 1.5.2)
+  - SDWebImage (~> 3.7.4)
+  - TTTAttributedLabel (~> 1.13.4)
+
+SPEC CHECKSUMS:
+  FontAwesome+iOS: 9070b682a9255ca0fdc34bcfb129ad0ba2b73b87
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+  POP+MCAnimate: a99e209148c602512de487f1160a44bf78572024
+  PPiAwesomeButton: 16f7279582fd36f65186b24b83ef876217363eb5
+  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+
 COCOAPODS: 0.39.0
