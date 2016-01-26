@@ -8,26 +8,47 @@
 
 #import "ViewController.h"
 
+//#import "UIDevice+Info.h"
+
+#import "UIButton+Bootstrap.h"
+
 #import "UIDevice+Info.h"
 
 @interface ViewController ()
+
+//@property (nonatomic,strong) UITextField *textField;
+
+
 
 @end
 
 @implementation ViewController
 
+
+- (void)viewWillAppear:(BOOL)animated {
+    NSLog(@"viewWillAppear");
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    NSLog(@"viewWillDisappear");
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     
-    NSLog(@"%@==",[UIDevice systemInfoDict][@"device"]);
+    NSDictionary *dict = [UIDevice systemInfoDict];
+    NSLog(@"%@==",dict);
     
-    // Do any additional setup after loading the view, typically from a nib.
+
+    
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
+
+
+
 
 @end

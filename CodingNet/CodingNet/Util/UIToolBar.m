@@ -9,9 +9,10 @@
 
 #define kEaseToolBar_Height 49.0
 #define kEaseToolBar_SplitLineViewTag 100
-
+#define  kBadgeTipStr @"badgeTip"
 
 #import "UIToolBar.h"
+#import "UIView+Common.h"
 
 @interface UIToolBar ()
 
@@ -51,8 +52,7 @@
         _buttonItems = buttonItems;
     }
     
-    //TODO: 这里要添加UIView的扩展
-//    [self addLineUp:YES andDown:NO andColor:[UIColor lightGrayColor]];
+    [self addLineUp:YES andDown:NO andColor:[UIColor lightGrayColor]];
     if (_buttonItems.count > 0) {
         NSInteger num = _buttonItems.count;
         CGFloat itemWidth = CGRectGetWidth(self.frame)/num;
@@ -127,15 +127,10 @@
 }
 - (void)addTipIcon{
     CGRect iconFrame = [self getIconImageView].frame;
-    
-    //TODO: 添加UIView扩展
-    
-//    [self addBadgeTip:kBadgeTipStr withCenterPosition:CGPointMake(iconFrame.origin.x + iconFrame.size.width +2, 12)];
+    [self addBadgeTip:kBadgeTipStr withCenterPosition:CGPointMake(iconFrame.origin.x + iconFrame.size.width +2, 12)];
 }
 - (void)removeTipIcon{
-    
-    //TODO: 添加UIView扩展
-//    [self removeBadgeTips];
+    [self removeBadgeTips];
 }
 
 @end

@@ -8,7 +8,7 @@
 
 #ifndef CodingNet_pch
 #define CodingNet_pch
-
+#import <Availability.h>
 
 //导入的公共类
 #import <Masonry.h>   //autoLayout 布局库
@@ -17,6 +17,21 @@
 
 #import <UIImageView+WebCache.h>
 
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+#import "UIButton+Bootstrap.h"
+#import "UIColor+expanded.h"
+#import "UIButton+Common.h"
+#import "UITableView+Common.h"
+#import "UIView+Common.h"
+#import "UILabel+Common.h"
+#import "NSDate+Common.h"
+#import "UITTTAttributedLabel.h"
+#import <Masonry/Masonry.h>
 
 
 
@@ -32,6 +47,8 @@
 
 //常用变量
 #define DebugLog(s, ...) NSLog(@"%s(%d): %@", __FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
+#define kTipAlert(_S_, ...)     [[[UIAlertView alloc] initWithTitle:@"提示" message:[NSString stringWithFormat:(_S_), ##__VA_ARGS__] delegate:nil cancelButtonTitle:@"知道了" otherButtonTitles:nil] show]
+
 
 #define kKeyWindow [UIApplication sharedApplication].keyWindow
 

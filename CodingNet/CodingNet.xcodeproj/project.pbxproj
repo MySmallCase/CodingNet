@@ -36,6 +36,16 @@
 		1F39B01B1C4BD2ED003FC185 /* UIUnderlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F39B01A1C4BD2ED003FC185 /* UIUnderlinedButton.m */; };
 		1F39B01E1C4BD370003FC185 /* UILongPressMenuImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F39B01D1C4BD370003FC185 /* UILongPressMenuImageView.m */; };
 		1F39B0211C4BD4F7003FC185 /* UIToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F39B0201C4BD4F7003FC185 /* UIToolBar.m */; };
+		1F931FD91C4CE44B00A7F6C7 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F931FD81C4CE44B00A7F6C7 /* UIView+LayoutMethods.m */; };
+		1F931FDC1C4CF53600A7F6C7 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F931FDB1C4CF53600A7F6C7 /* UIView+Common.m */; };
+		1F931FDF1C4D16A400A7F6C7 /* UIViewController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F931FDE1C4D16A400A7F6C7 /* UIViewController+Swizzle.m */; };
+		1F9322CE1C4DE80F00A7F6C7 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9322CD1C4DE80F00A7F6C7 /* Helper.m */; };
+		1F9322D11C4E221A00A7F6C7 /* UIVerticalAlignmentLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9322D01C4E221A00A7F6C7 /* UIVerticalAlignmentLabel.m */; };
+		1F9322D41C4E22F900A7F6C7 /* LocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9322D31C4E22F900A7F6C7 /* LocationHelper.m */; };
+		1F9322D71C4E23B700A7F6C7 /* UIActionSheet+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9322D61C4E23B700A7F6C7 /* UIActionSheet+Common.m */; };
+		1F9322DA1C4E28B100A7F6C7 /* NSTimer+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9322D91C4E28B100A7F6C7 /* NSTimer+Common.m */; };
+		1F9322DD1C4E364000A7F6C7 /* NSString+AttributeStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9322DC1C4E364000A7F6C7 /* NSString+AttributeStr.m */; };
+		1FCD9EA31C512656006E4621 /* ObjcRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD9EA21C512656006E4621 /* ObjcRuntime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +124,26 @@
 		1F39B01D1C4BD370003FC185 /* UILongPressMenuImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILongPressMenuImageView.m; sourceTree = "<group>"; };
 		1F39B01F1C4BD4F7003FC185 /* UIToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIToolBar.h; sourceTree = "<group>"; };
 		1F39B0201C4BD4F7003FC185 /* UIToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIToolBar.m; sourceTree = "<group>"; };
+		1F931FD71C4CE44B00A7F6C7 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		1F931FD81C4CE44B00A7F6C7 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		1F931FDA1C4CF53600A7F6C7 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		1F931FDB1C4CF53600A7F6C7 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		1F931FDD1C4D16A400A7F6C7 /* UIViewController+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzle.h"; sourceTree = "<group>"; };
+		1F931FDE1C4D16A400A7F6C7 /* UIViewController+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzle.m"; sourceTree = "<group>"; };
+		1F9322CC1C4DE80F00A7F6C7 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		1F9322CD1C4DE80F00A7F6C7 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		1F9322CF1C4E221A00A7F6C7 /* UIVerticalAlignmentLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVerticalAlignmentLabel.h; sourceTree = "<group>"; };
+		1F9322D01C4E221A00A7F6C7 /* UIVerticalAlignmentLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVerticalAlignmentLabel.m; sourceTree = "<group>"; };
+		1F9322D21C4E22F900A7F6C7 /* LocationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationHelper.h; sourceTree = "<group>"; };
+		1F9322D31C4E22F900A7F6C7 /* LocationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationHelper.m; sourceTree = "<group>"; };
+		1F9322D51C4E23B700A7F6C7 /* UIActionSheet+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Common.h"; sourceTree = "<group>"; };
+		1F9322D61C4E23B700A7F6C7 /* UIActionSheet+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Common.m"; sourceTree = "<group>"; };
+		1F9322D81C4E28B100A7F6C7 /* NSTimer+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Common.h"; sourceTree = "<group>"; };
+		1F9322D91C4E28B100A7F6C7 /* NSTimer+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Common.m"; sourceTree = "<group>"; };
+		1F9322DB1C4E364000A7F6C7 /* NSString+AttributeStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AttributeStr.h"; sourceTree = "<group>"; };
+		1F9322DC1C4E364000A7F6C7 /* NSString+AttributeStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AttributeStr.m"; sourceTree = "<group>"; };
+		1FCD9EA11C512656006E4621 /* ObjcRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcRuntime.h; sourceTree = "<group>"; };
+		1FCD9EA21C512656006E4621 /* ObjcRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcRuntime.m; sourceTree = "<group>"; };
 		7EEF87F0D689B380EC7DE36F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B5C452986ED8DC03D2A7ED60 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C30B30D30C065D2586613F79 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				1F39AFD91C4A9137003FC185 /* Category */,
+				1FCD9E9F1C511D5C006E4621 /* Class */,
 				1F39B0041C4BC5F9003FC185 /* Util */,
 				1F39AFD41C4A9130003FC185 /* Vendor */,
 				1F39AFA41C4A901D003FC185 /* AppDelegate.h */,
@@ -254,6 +285,18 @@
 				1F39B0021C4BC564003FC185 /* UILabel+Common.m */,
 				1F39B00A1C4BC8C0003FC185 /* UITableView+Common.h */,
 				1F39B00B1C4BC8C0003FC185 /* UITableView+Common.m */,
+				1F931FD71C4CE44B00A7F6C7 /* UIView+LayoutMethods.h */,
+				1F931FD81C4CE44B00A7F6C7 /* UIView+LayoutMethods.m */,
+				1F931FDA1C4CF53600A7F6C7 /* UIView+Common.h */,
+				1F931FDB1C4CF53600A7F6C7 /* UIView+Common.m */,
+				1F931FDD1C4D16A400A7F6C7 /* UIViewController+Swizzle.h */,
+				1F931FDE1C4D16A400A7F6C7 /* UIViewController+Swizzle.m */,
+				1F9322D51C4E23B700A7F6C7 /* UIActionSheet+Common.h */,
+				1F9322D61C4E23B700A7F6C7 /* UIActionSheet+Common.m */,
+				1F9322D81C4E28B100A7F6C7 /* NSTimer+Common.h */,
+				1F9322D91C4E28B100A7F6C7 /* NSTimer+Common.m */,
+				1F9322DB1C4E364000A7F6C7 /* NSString+AttributeStr.h */,
+				1F9322DC1C4E364000A7F6C7 /* NSString+AttributeStr.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -271,6 +314,7 @@
 		1F39B0041C4BC5F9003FC185 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				1FCD9EA01C512633006E4621 /* ObjcRuntime */,
 				1F39B00D1C4BCE82003FC185 /* UIBadgeView.h */,
 				1F39B00E1C4BCE82003FC185 /* UIBadgeView.m */,
 				1F39B0101C4BCFCD003FC185 /* UICustomCollectionView.h */,
@@ -287,8 +331,38 @@
 				1F39B01D1C4BD370003FC185 /* UILongPressMenuImageView.m */,
 				1F39B01F1C4BD4F7003FC185 /* UIToolBar.h */,
 				1F39B0201C4BD4F7003FC185 /* UIToolBar.m */,
+				1F9322CC1C4DE80F00A7F6C7 /* Helper.h */,
+				1F9322CD1C4DE80F00A7F6C7 /* Helper.m */,
+				1F9322CF1C4E221A00A7F6C7 /* UIVerticalAlignmentLabel.h */,
+				1F9322D01C4E221A00A7F6C7 /* UIVerticalAlignmentLabel.m */,
+				1F9322D21C4E22F900A7F6C7 /* LocationHelper.h */,
+				1F9322D31C4E22F900A7F6C7 /* LocationHelper.m */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		1FCD9E9F1C511D5C006E4621 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1FCD9EA41C5128DD006E4621 /* main */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		1FCD9EA01C512633006E4621 /* ObjcRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				1FCD9EA11C512656006E4621 /* ObjcRuntime.h */,
+				1FCD9EA21C512656006E4621 /* ObjcRuntime.m */,
+			);
+			path = ObjcRuntime;
+			sourceTree = "<group>";
+		};
+		1FCD9EA41C5128DD006E4621 /* main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = main;
 			sourceTree = "<group>";
 		};
 		5061250D42CEBF5C31557CA6 /* Frameworks */ = {
@@ -490,20 +564,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FCD9EA31C512656006E4621 /* ObjcRuntime.m in Sources */,
 				1F39AFF31C4B97F7003FC185 /* UIColor+Expanded.m in Sources */,
+				1F931FDC1C4CF53600A7F6C7 /* UIView+Common.m in Sources */,
+				1F9322DD1C4E364000A7F6C7 /* NSString+AttributeStr.m in Sources */,
+				1F931FD91C4CE44B00A7F6C7 /* UIView+LayoutMethods.m in Sources */,
 				1F39AFD81C4A9130003FC185 /* NSDate+Helper.m in Sources */,
+				1F9322D11C4E221A00A7F6C7 /* UIVerticalAlignmentLabel.m in Sources */,
 				1F39AFA91C4A901D003FC185 /* ViewController.m in Sources */,
 				1F39AFF01C4B94CF003FC185 /* UIButton+Bootstrap.m in Sources */,
 				1F39B00C1C4BC8C0003FC185 /* UITableView+Common.m in Sources */,
 				1F39B00F1C4BCE82003FC185 /* UIBadgeView.m in Sources */,
 				1F39AFF91C4BB914003FC185 /* NSString+Common.m in Sources */,
+				1F931FDF1C4D16A400A7F6C7 /* UIViewController+Swizzle.m in Sources */,
+				1F9322D41C4E22F900A7F6C7 /* LocationHelper.m in Sources */,
 				1F39B0211C4BD4F7003FC185 /* UIToolBar.m in Sources */,
 				1F39B0121C4BCFCD003FC185 /* UICustomCollectionView.m in Sources */,
 				1F39B0081C4BC6D3003FC185 /* UITapImageView.m in Sources */,
+				1F9322DA1C4E28B100A7F6C7 /* NSTimer+Common.m in Sources */,
 				1F39AFF61C4BB79C003FC185 /* UIButton+Common.m in Sources */,
 				1F39AFDC1C4A9174003FC185 /* NSDate+Convenience.m in Sources */,
 				1F39B0181C4BD1F5003FC185 /* UITTTAttributedLabel.m in Sources */,
+				1F9322CE1C4DE80F00A7F6C7 /* Helper.m in Sources */,
 				1F39AFFD1C4BC31F003FC185 /* UIDevice+Info.m in Sources */,
+				1F9322D71C4E23B700A7F6C7 /* UIActionSheet+Common.m in Sources */,
 				1F39AFE71C4B8F46003FC185 /* NSString+Emojize.m in Sources */,
 				1F39B0001C4BC4D0003FC185 /* UIImage+Common.m in Sources */,
 				1F39AFA61C4A901D003FC185 /* AppDelegate.m in Sources */,
